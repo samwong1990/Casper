@@ -9,7 +9,40 @@
         <div class="site-head-content inner">
             {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
             <h1 class="blog-title">{{@blog.title}}</h1>
-            <h2 class="blog-description">{{@blog.description}}</h2>
+            <p>
+                My books are <a href="http://books.samwong.hk/">here</a>. My Github is <a href="http://github.samwong.hk/" class="hastip" title="Not much is there, sorry :(">here</a>. My feeds are <a href="http://samwong.hk/feedly.opml" class="hastip" title="OPML file, updated in July 13">here</a>. My CV is <a class="hastip" title="next time, simply cv.samwong.hk" href="http://cv.samwong.hk/">here</a>.
+            </p>
+            <p>
+                Stuff I like is <a href="http://ghost.samwong.hk/stuff-i-like/">here</a>, Stuff I hate is <a href="http://ghost.samwong.hk/stuff-i-hate/">here</a>.
+            </p>
+            <p>
+                My final year project is <a class="hastip" title="Tag line: Energy efficient, crowdsourced, Room-level positioning service. (WIP)">RoomService</a>. Here is the <a href="http://fyp.samwong.hk/" class="hastip" title="Warning: It&#39;s 4MB">Report</a> and <a href="http://finalpresentation.samwong.hk/">Presentation</a>.
+            </p>
+            <p>
+                My news clippings are on <a href="http://twitter.samwong.hk/">@samwong1990</a>.
+            </p>
+            <p>
+                To stalk or schedule, see the icons below.
+            </p>
+            <p>
+                If you are still curious, scroll down.
+            </p>
+            <div class="signed_and_contact_info">
+                <img src="{{asset "images/signature-alpha-black.png"}}">
+                <br>
+                <strong>Sam Wong</strong>
+                <br>
+                <a href="mailto:s@mwong.hk">s@mwong.hk</a>
+                <br>
+                +44 7717 304 189
+            </div>
+            <div class="quick-icons">
+                <a href="http://facebook.samwong.hk/" class="hastip" title="next time, simply facebook.samwong.hk"><img alt="Facebook" src="{{asset "images/facebook.png"}}" width="50px"></a>
+                <a href="http://linkedin.samwong.hk/" class="hastip" title="next time, simply linkedin.samwong.hk"><img alt="LinkedIn" src="{{asset "images/linkedin.png"}}" width="50px"></a>
+                <a href="https://www.google.com/calendar/embed?showTitle=0&showPrint=0&showCalendars=0&mode=WEEK&height=600&wkst=1&bgcolor=%23FFFFFF&src=sam.wong.1990%40gmail.com&color=%23060D5E&src=inlhapfv74hvnfo1d5ot4obs1pajnv5d%40import.calendar.google.com&color=%232F6309&ctz=Europe%2FLondon"><img alt="Gcalendar" src="{{asset "images/gcalendar.png"}}" width="50px"></a>
+                <a href="skype:samwong1990?add"><img alt="Add me to Skype" src="{{asset "images/skype.png"}}" width="50px"></a>
+            </div>
+            <small>With illustration by <a href="http://legendof.me/">Suhaib Sarmad</a></small>
         </div>
     </div>
 </header>
@@ -26,8 +59,8 @@
             <h2 class="post-title"><a href="{{url}}">{{{title}}}</a></h2>
 
         </header>
-        <section class="post-excerpt">
-            <p>{{excerpt}}&hellip;</p>
+        <section class="post-content">
+            <p>{{content}}<p>
         </section>
     </article>
 

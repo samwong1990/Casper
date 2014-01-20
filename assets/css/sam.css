@@ -1,0 +1,39 @@
+/* !important used to override Casper's default setting. */
+
+.quick-icons a{
+    margin-right: 5vh;
+    margin-right: 5vh;
+}
+
+.blog-logo img{
+    max-height: 50vh !important;
+}
+
+.signed_and_contact_info{
+    width:31vh;
+    margin: auto auto;
+}
+
+.signed_and_contact_info img{
+    width: 70%;
+}
+
+.site-head{
+    background:#eee !important;
+}
+
+.site-head .vertical .site-head-content {
+    color:#3A4145 !important;
+}
+
+.tooltipsy
+{
+    font-size: 0.5em;
+    padding: 0px 8px 0px 8px;
+    z-index: 100000;
+    border-radius: 16px;
+    max-width: 200px;
+    color: #FFF;
+    background-color: #000;
+
+}

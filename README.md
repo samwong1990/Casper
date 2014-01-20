@@ -1,3 +1,7 @@
+# My homepage is now on Ghost!
+
+I forked the Casper theme to put my site completely on ghost. My person domain is now exclusively used to serve my own services, apps and experiments.
+
 # Casper
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/).
